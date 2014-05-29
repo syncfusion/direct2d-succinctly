@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="GraphPlotting.EditLine"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GraphPlotting"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:ConnectionId='1' Name="btnBack" Content="Back" FontSize="32" 
+        HorizontalAlignment="Left" Height="82" Margin="10,10,0,0" 
+        VerticalAlignment="Top" Width="157"                      />
+        
+        <Slider Name="sldLineThickness" HorizontalAlignment="Left"
+        Margin="420,302,0,0" 
+        VerticalAlignment="Top" Width="573" Height="47" Minimum="1"
+        Maximum="12"/>
+
+        <TextBlock FontSize="32" HorizontalAlignment="Left" Margin="185,302,0,0"
+        TextWrapping="Wrap" Text="Line Thickness" 
+        VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
+

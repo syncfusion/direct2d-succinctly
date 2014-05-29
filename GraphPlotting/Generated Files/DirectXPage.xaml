@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="GraphPlotting.DirectXPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GraphPlotting"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <SwapChainBackgroundPanel x:ConnectionId='1' x:Name="SwapChainPanel"                                                                                                              />
+    <Page.BottomAppBar>
+        <AppBar Padding="10, 0, 10, 0">
+        <Button x:ConnectionId='2' Name="btnEditLine" Content="Edit Line" FontSize="24" HorizontalAlignment="Center" Width="240"                          />
+        </AppBar>
+    </Page.BottomAppBar>
+</Page>
+
